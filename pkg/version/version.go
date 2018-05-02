@@ -47,7 +47,7 @@ var COMMIT = "COMMIT should be overridden"
 var BUILDINFO = "BUILDINFO should have new info"
 
 // DDevTLD defines the tld to use for DDev site URLs.
-const DDevTLD = "ddev.local"
+const DDevTLD = ""
 
 // GetVersionInfo returns a map containing the version info defined above.
 func GetVersionInfo() map[string]string {
